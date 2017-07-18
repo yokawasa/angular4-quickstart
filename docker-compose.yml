@@ -1,0 +1,7 @@
+myapp:
+  build: .
+  ports:
+    - '4200:4200'
+  volumes:
+    - ./myapp:/home/nodejs/myapp
+    - /home/nodejs/myapp/node_modules
